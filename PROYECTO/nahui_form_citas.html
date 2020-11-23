@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de citas</title>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/favicon.png"/>
+    <link rel="stylesheet" href="nahui_form_citas.css">
+</head>
+<body>
+    <div>
+        <h1 class="header_text">
+            CITAS
+        </h1> 
+    </div>
+    
+    <div>
+        <section>
+        <form method="POST" class="formulario_nahui" action="nahui_completado.html">
+            <h4>Formulario de citas</h4>
+            <label for="nombre_paciente">Nombre: </label>
+            <p><input class="casilla" type="text" name="nombre_paciente" id="nombre_paciente" placeholder="Introduzca sus nombres"></p>
+            
+            <label for="apellido_paciente">Apellidos: </label>
+            <p><input class="casilla" type="text" name="apellido_paciente" id="apellido_paciente" placeholder="Introduzca sus apellidos"></p>
+
+            <label for="sedes">Sedes: </label>
+            <p> <select name="sedes" id="sedes">
+                <option disabled="" selected >Selecione una sede</option>
+                <option value="Surquillo">Surquillo</option>
+                <option value="Magdalena">Magdalena</option>
+                <option value="Ate">Ate</option>
+                <option value="Comas">Comas</option>
+                <option value="Miraflores">Miraflores</option>
+                <option value="Villa el Salvador">Villa el Salvador</option>
+            </select> </p>
+            
+            <label for="especialidad">Especialidad: </label>
+            <p><select name="especialidad" id="especialidad">
+                <option disabled="" selected >Selecione una especialidad</option>
+                <option value="optometria">Optometria</option>
+                <option value="biometria">Biometria</option>
+                <option value="topografia_corneal">Topografia corneal</option>
+                <option value="cirugia">Cirugia</option>
+            </select> </p>
+
+            <label for="especialista">Especialista: </label>
+            <p> <select name="especialista" id="especialista">
+                <option disabled="" selected >Seleciona un especialista</option>
+                <option value="Dr_Alegria">Dr. Alegria</option>
+                <option value="Dr_Quispe">Dr. Quispe</option>
+                <option value="Dra_Alarcon">Dra. Alarcon</option>
+                <option value="Dra_Zavaleta">Dra. Zavaleta</option>
+                <option value="Dra_Rodriguez">Dra. Rodriguez</option>
+                <option value="Dr_Garcia">Dr. Garcia</option>
+            </select> </p>
+
+            <label for="fecha">Fecha: </label>
+            <p><input type="date"></p>
+
+            <label for="hora">Hora:</label>
+            <p><input type="time"></p>
+            
+            <p><input class="boton" type="submit" value="Reservar cita"></p>
+        </form>
+
+        <form action="nahui_principal.html">
+            <p><input class="boton" type="submit" value="Cancelar"></p>
+        </form>
+        </section>
+    </div>
+
+    <footer class='footer'>
+        <div></div>
+        <div class='copyright'>
+            <p>
+            Copyright © 2020 Clínica de Ojos Ñahui | Todos los derechos reservados 
+            | Desarrollado por <a href=#>G5</a>    
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

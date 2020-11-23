@@ -1,0 +1,57 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    background: url("img/fondo_nahui.png");
+}
+
+.header_text{
+    background-color: #0b489d;
+    color: #fff;
+    height: 65px;
+    text-align: center;
+    font-size: 48px;
+    border-bottom: solid #fff 1px;
+}
+
+body form{
+    margin: 20px;
+}
+
+.informacion_paciente{
+    color: white;
+}
+
+.cuadro_resultado{
+    background-color: rgba(58, 58, 58, 0.452);
+    border: solid white 1px;
+    width: 600 px;
+    height: 400px;
+    padding: 60px;
+    margin: 25px;
+    border-radius: 10px;
+    color: black;
+}
+
+footer{
+    border-top: solid white 1px;
+}
+
+footer a{
+    color: #fff;
+}
+
+.copyright{
+    background-color: #0b489d;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    line-height: 18px;
+    padding: 8px 15px;
+    letter-spacing: 0;
+    margin-bottom: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}

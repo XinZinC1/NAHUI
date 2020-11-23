@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    background: url("img/fondo_nahui4.jpg");
+}
+
+.header_text{
+    background-color: #0b489d;
+    color: #fff;
+    text-align: center;
+    font-size: 54px;
+    border-bottom: solid #fff 1px;
+}
+
+.formulario_nahui{
+    background-color: rgba(22, 22, 22, 0.329);
+    border: solid white 1px;
+    width: 600 px;
+    padding: 60px;
+    margin: 25px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 5px 5px 20px;
+}
+
+.formulario_nahui h4{
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
+.formulario_nahui select{
+    width: 250px;
+    padding: 6px;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    border: 1px;
+}
+
+.formulario_nahui time{
+    width: 250px;
+    padding: 6px;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+.formulario_nahui time{
+    width: 250px;
+    padding: 6px;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+.formulario_nahui .boton{
+    width: 250px;
+    padding: 6px;
+    border-radius: 4px;
+    margin-top: 25px;
+    border: 1px;
+}
+
+.casilla{
+    width: 25%;
+    padding: 6px;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+footer{
+    border-top: solid white 1px;
+}
+
+footer a{
+    color: #fff;
+}
+
+.copyright{
+    background-color: #0b489d;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    line-height: 18px;
+    padding: 8px 15px;
+    letter-spacing: 0;
+    margin-bottom: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
